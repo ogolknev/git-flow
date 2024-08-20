@@ -1,6 +1,6 @@
 structure:
 ```bush
-git commit -m "<type>(<scope>) <action> *description*"
+git commit -m "<type>( <scope> ): <action> *description*"
 ```
 
 types:
@@ -11,3 +11,9 @@ types:
 - `test` - related to tests
 - `style` - unrelated to logic
 
+scope:
+- special - ex: ( /app ), ( /static ), ( /types/users )
+- common - ex: ( /app, /static/ ), ( * )
+
+action: 
+- any verb
