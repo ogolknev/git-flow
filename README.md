@@ -1,0 +1,1 @@
+here I will leave notes about my style of working with git in order to improve it later
